@@ -26,7 +26,7 @@ This is a **Java-based CRUD application** for managing employee records using **
 | Maven      | Project and dependency manager   |
 | Eclipse    | IDE used for development         |
 
----
+
 
 ## 📂 Project Structure
 
@@ -41,7 +41,7 @@ EmployeeHibernateApp/
 ├── .classpath/.project # Eclipse-specific files
 
 
----
+
 
 ## 🧑‍🎓 Prerequisites
 
@@ -53,7 +53,7 @@ Before running this project, make sure you have the following installed:
 - ✅ Eclipse IDE or IntelliJ IDEA
 - ✅ Git (optional, for cloning repo)
 
----
+
 
 ## 🚀 Getting Started (Step-by-Step for Beginners)
 
@@ -61,7 +61,6 @@ Before running this project, make sure you have the following installed:
 
 Open terminal or Git Bash and run:
 
-```bash
 git clone https://github.com/Dhanalekshmi26/Hibernate.git
 cd Hibernate
 Or simply download the ZIP file from GitHub and extract it.
@@ -107,8 +106,6 @@ You can test all CRUD operations through the console (like adding, viewing, upda
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-core</artifactId>
         <version>5.6.15.Final</version>
-    </dependency>
-
     <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
