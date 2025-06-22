@@ -55,6 +55,9 @@ git clone https://github.com/Dhanalekshmi26/Hibernate.git
 cd Hibernate
 Or simply download the ZIP file from GitHub and extract it.
 
+
+
+
 🔹 Step 2: Import the Project into Eclipse
 Open Eclipse.
 
@@ -64,12 +67,17 @@ Select the folder: EmployeeHibernateApp.
 
 Finish the import. Maven will automatically resolve dependencies from pom.xml.
 
+
+
 🔹 Step 3: Setup MySQL Database
 Open MySQL Workbench or Command Line.
 
 Create a new database:
 CREATE DATABASE employee_db;
 USE employee_db;
+
+
+
 
 🔹 Step 4: Configure Hibernate
 Open hibernate.cfg.xml and update these properties to match your MySQL setup:
@@ -78,16 +86,23 @@ Open hibernate.cfg.xml and update these properties to match your MySQL setup:
 <property name="connection.password">your_password</property>
 Ensure MySQL is running and the DB name, username, and password are correct.
 
+
+
+
 🔹 Step 5: Build the Project (Maven)
 In Eclipse:
 Right-click the project > Run As > Maven clean
 Then: Run As > Maven install
+
+
 
 🔹 Step 6: Run the Application
 Find and run the main class — usually named something like:
 EmployeeMain.java
 
 You can test all CRUD operations through the console (like adding, viewing, updating, and deleting employees).
+
+
 
 
 📦 Maven Dependencies (from pom.xml)
@@ -102,6 +117,7 @@ You can test all CRUD operations through the console (like adding, viewing, upda
         <version>8.0.33</version>
     </dependency>
 </dependencies>
+
 
 ## 🙌 Contributions
 
