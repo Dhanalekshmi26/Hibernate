@@ -28,17 +28,7 @@ This is a **Java-based CRUD application** for managing employee records using **
 
 
 
-## 📂 Project Structure
-
-EmployeeHibernateApp/
-├── src/
-│ ├── model/ # Entity class (Employee.java)
-│ ├── dao/ # Data Access Object (CRUD logic)
-│ ├── util/ # Hibernate utility class
-│ └── main/ # Application entry point
-├── hibernate.cfg.xml # Hibernate configuration
-├── pom.xml # Maven project file
-├── .classpath/.project # Eclipse-specific files
+---
 
 
 
@@ -53,7 +43,7 @@ Before running this project, make sure you have the following installed:
 - ✅ Eclipse IDE or IntelliJ IDEA
 - ✅ Git (optional, for cloning repo)
 
-
+---
 
 ## 🚀 Getting Started (Step-by-Step for Beginners)
 
